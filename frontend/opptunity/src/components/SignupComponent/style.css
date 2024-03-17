@@ -1,0 +1,89 @@
+h2{
+    font-size: 36px;
+}
+.signup-section{
+    margin-top: 7%;
+    margin-left: 50%;
+    padding-left: 5%;
+}
+.signup-section    {
+    width: 90%;
+    }
+.signup-section  table tr td input{
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #ccc; 
+    background-color: #f8fafc;
+    border-radius: 8px; 
+
+    font-size: 16px;    
+}
+
+
+.submit{
+    margin-top: 10px;
+    width: 100%;
+
+    background-color: #0d3b66; 
+    color: white; 
+    border: none; 
+    font-size: 16px; 
+    font-weight: bold; 
+    border-radius: 8px; 
+    cursor: pointer;
+    outline: none; 
+}
+.social-signup div {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-section {
+    width: 50%;
+  }
+  .signup-section ,
+  .social-signup {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+   input[type="text"],
+   input[type="email"],
+   input[type="password"],
+   button,
+  .social-signup button {
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .social-signup button.socialmedia-signup {
+    color: black;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+    width: 40%;
+  }
+  .socialmedia-signup img{
+    width: 30px;
+    height: 30px;
+  }
+.social-signup p {
+    margin-left: 45%;
+}
+  
+  .login-redirect a {
+    text-decoration: none;
+    color: #0000EE; /* Classic link blue */
+  }
+@media (max-width: 800px) {
+    .signup-section{
+        margin-left: 0%;
+width: 100%;
+  }
+}

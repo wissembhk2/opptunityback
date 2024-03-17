@@ -1,0 +1,51 @@
+.welcome-section{
+    width: 50%;
+    background-color: #0d3b66;
+    color: white;
+    padding-left: 6%;
+    padding-top: 3%;
+    box-sizing: border-box;
+
+position: fixed; 
+overflow: hidden;
+height: 100vh;
+ }
+  .quarter-circle {
+    bottom: 00;
+    right: 0;
+    width: 80vh;
+    height: 80vh;
+    border:7px solid #FFA500;
+    border-radius: 50%;
+    margin-left: 60%;
+  }
+  .logo {
+    width: 10rem;
+    margin-top: 5%;
+    /* margin-left: 5%; */
+    min-width: 13%;
+    max-width: 50%;
+  }
+
+  @media (max-width: 800px) {
+    .welcome-section{
+        width:100%;
+        position: relative;
+    }
+    .welcome-page {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .welcome-section h2{
+        /* margin-left:5%; */
+        width: 100%;
+      } 
+    .logo {
+        margin-top: 5%;
+        /* margin-left: 5%; */
+        min-width: 1Orem;
+        width: 10rem;
+        max-width: 100%;
+    }
+  }

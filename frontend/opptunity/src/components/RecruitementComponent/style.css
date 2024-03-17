@@ -1,0 +1,68 @@
+.recruiterdiv img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.recruiterdiv{
+    display: flex;
+    align-items: center;
+    background-color: #090914;
+    padding-left: 2%;
+    border-radius: 8px;
+    width: 90%;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+
+}
+.recruitement {
+    background-color: rgba(255, 255, 255,0.1);
+    border-radius: 8px;
+    padding-top: 15%;
+    padding-left: 7%;
+    margin-top: 10%;
+    width: 80%;
+    box-sizing: border-box;
+
+}
+.dash{
+    background-color: #3f3f46;
+    width: 50px;
+    height: 10px;
+    border-radius: 8px;
+}
+
+.recruiters{
+    background-color: white;
+    width: 90%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: black;
+
+    
+}
+.rts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.recruiters div p {
+    color : grey;
+    font-size: small;
+}
+.recruiterprofile img {
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.recruiterprofile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
